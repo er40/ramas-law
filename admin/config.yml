@@ -26,6 +26,14 @@ collections:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
+    files:
+    - label: "About Page"
+      name: "about"
+      file: "about.md"
+      fields:
+        - { label: "Title", name: "title", widget: "hidden", default: "about" }
+        - { label: "Layout", name: "title", widget: "hidden", default: "about" }
+        - { label: "Body", name: "body", widget: "markdown" }
   - name: "config"
     label: "Config"
     editor:
