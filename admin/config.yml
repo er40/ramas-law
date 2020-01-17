@@ -4,27 +4,25 @@ backend:
   name: git-gateway
   repo: er40/pr-law
   branch: master # Branch to update (optional; defaults to master)
+  open_authoring: true
 media_folder: 'assets/uploads'
 publish_mode: editorial_workflow
+
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/blog'
     fields:
       - { name: Title }
-  - label: "Pages"
-    name: "pages"
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "site/content/home.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
+    - label: 'Home Page'
+      name: 'home'
+      file: 'index.html'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
