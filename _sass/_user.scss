@@ -1,5 +1,13 @@
 /*User CSS*/
 
+
+.main-menu {
+	li.nav-item {
+		&:last-child {
+			padding-right: 1rem;
+		}
+	}
+}
 .text-dark {
 	color:$gray-700 !important;
 }
