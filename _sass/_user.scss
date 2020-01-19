@@ -31,8 +31,20 @@
 
 
 @media only screen and (max-width: 991px) {
+	.partner-photo-wrap {
+		display: none;
+	}
 	.partner-photo {
 		display:none !important;
+	}
+
+
+	.home-hero-bg {
+		padding: 25px 25px;
+
+		.container {
+			height: auto !important;
+		}
 	}
 }
 
