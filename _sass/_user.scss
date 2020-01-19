@@ -1,0 +1,30 @@
+/*User CSS*/
+
+.text-dark {
+	color:$gray-700 !important;
+}
+.hero-form-wrap {
+	.partner-photo {
+		width:80%;
+		margin:0 auto;
+		display: block;
+
+		img {
+			position: absolute;
+			bottom:0;
+			width:100%;
+		}
+	}
+
+	form {
+		position: absolute;
+	}
+}
+
+
+@media only screen and (max-width: 991px) {
+	.partner-photo {
+		display:none !important;
+	}
+}
+
