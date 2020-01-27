@@ -683,6 +683,24 @@ a.primary-hover {
     border-top: 20px solid $gray-100;
   }
 }
+
+.triangle-down-white {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+  }
+}
 /* wave*/
 .wave {
   position: absolute;
