@@ -8,6 +8,13 @@
 		}
 	}
 }
+
+.nav-item {
+	.btn {
+		font-size: 1rem !important;
+		font-weight: normal;
+	}
+}
 .text-dark {
 	color:$gray-700 !important;
 }
@@ -29,6 +36,10 @@
 	}
 }
 
+.lead-banner {
+	font-weight: 300;
+    line-height: 27px;
+}
 
 @media only screen and (max-width: 991px) {
 	.partner-photo-wrap {
