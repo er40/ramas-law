@@ -143,7 +143,7 @@ navname: Home
                 <div class="h-100 title pb-4 p-lg-0">
                     <h2 class="text-center">Get Your FREE Case Evaluation</h2>
                     <p class="lead p-0 text-center text-dark">If you have been injured and think you are entitled to compensation, we can help. Tell us about your case in the form below for a free case evaluation.</p>
-                    <form class="contact-form" id="contact-form" name="contactform" action="assets/include/contact-action.php">
+                    <form  action="https://formspree.io/xyywnbep" method="POST" class="contact-form" id="contact-form" name="contactform">
                         <!-- Start form message -->
                         <div class="row">
                             <div class="col-12">
@@ -167,7 +167,7 @@ navname: Home
                                 <!-- email -->
                                 <span class="form-group">
                                 	<label>Email</label>
-                                    <input id="con-email" name="email" type="email" class="form-control" placeholder="E-mail">
+                                    <input id="con-email" name="_replyto" type="email" class="form-control" placeholder="E-mail">
                                 </span>
                             </div>
                             <div class="col-md-4">
@@ -185,7 +185,8 @@ navname: Home
                                 </span>
                             </div>
                             <!-- submit button -->
-                            <div class="col-md-12 text-center"><button class="btn btn-primary btn-block">Send Message</button></div>
+
+                            <div class="col-md-12 text-center"><input class="btn btn-primary btn-block" type="submit" value="Send Message"></div>
                         </div>
                         <!-- End main form -->
                     </form>
