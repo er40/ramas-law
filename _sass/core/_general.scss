@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   overflow-x: hidden;
+  color:#495057;
+  font-size:1rem;
 }
 
 a {
@@ -499,3 +501,84 @@ textarea {
   }
 }
 
+// CUSTOM STUFF
+
+
+
+// About Us
+.who-we-are {
+  img {
+    border-radius: 5px;  
+  }
+}
+@include media-breakpoint-only(md)  {
+  .who-we-are {
+    img {
+      border-radius: 5px;  
+      margin-bottom:16px;
+      max-width:500px;
+    }
+
+    .mx-md-auto {
+      margin:0 !important;
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+.who-we-are {
+  img {
+    max-width:300px;
+    border-radius: 5px;
+    margin-bottom:16px;
+  }
+}
+
+}
+// Evaluation Form
+@include media-breakpoint-down(xs) {
+
+  .why-us {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  .evaluation-form {
+    padding: 3.5rem 0.5rem !important;
+  }
+}
+// Footer
+
+footer {
+  .social-icons {
+      padding: 0;
+      line-height: 0;
+      text-align: center;
+      width: 100%;
+      margin-top: 16px;
+  }
+}
+
+// Practice Area
+
+.service img {
+    border-radius: 5px;
+  }
+
+@include media-breakpoint-down(sm) {
+  .service {
+    img {
+      border-radius: 5px;
+      max-width: 300px;
+      margin-bottom: 16px;
+    }
+
+    .pb-6 {
+      padding-bottom: 2.5rem !important;
+    }
+
+    .feature-box-desc {
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+}
