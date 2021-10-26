@@ -2,7 +2,7 @@
 
 backend:
   name: git-gateway
-  repo: er40/pr-law
+  repo: er40/ramas-law
   branch: master # Branch to update (optional; defaults to master)
   open_authoring: true
 media_folder: 'assets/uploads'
