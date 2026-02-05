@@ -7,3 +7,5 @@ items:
     name: About Us
   - link: /faq.html
     name: FAQ
+  - link: /privacy-policy.html
+    name: Privacy Policy
