@@ -2,10 +2,11 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+gem "jekyll"
+
+# This forces a version compatible with Ruby 3.2+
+gem "listen", "~> 3.7"
 
 group :jekyll_plugins do
-	gem 'jekyll-coffeescript'
+    gem 'jekyll-coffeescript'
 end
-
-gem "jekyll"
