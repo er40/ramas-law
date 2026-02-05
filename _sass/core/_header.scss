@@ -179,7 +179,7 @@ header.navbar-sticky-on {
     height: 200px;
     background: $white;
     border-radius: 50% 50% 50% 50%;
-    @include transition-animation (all, 0.7s, ease-in-out)
+    @include transition-animation (all, 0.7s, ease-in-out);
     box-shadow: 0 0 0 0 $white, 0 0 0 0 $white;
     cursor: pointer;
   }
@@ -196,9 +196,9 @@ header.navbar-sticky-on {
   -webkit-transform-origin: center;
   transform-origin: center;
 
-  @include transition-animation (all, 0.5s, ease-in-out)
+  @include transition-animation (all, 0.5s, ease-in-out);
   &:after,&:before {
-    @include transition-animation (all, 0.5s, ease-in-out)
+    @include transition-animation (all, 0.5s, ease-in-out);
     content: "";
     position: absolute;
     display: block;
@@ -260,7 +260,7 @@ header.navbar-sticky-on {
     opacity: 0;
     visibility: hidden;
 
-    @include transition-animation (all, 0.8s, ease-in-out)
+    @include transition-animation (all, 0.8s, ease-in-out);
     li {
       display: block;
       text-align: center;
